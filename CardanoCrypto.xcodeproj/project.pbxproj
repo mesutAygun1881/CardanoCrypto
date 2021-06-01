@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C7462722666D42F00291DAE /* ADATableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7462712666D42F00291DAE /* ADATableViewCell.swift */; };
 		7CA7450E26668C3700B6DAE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA7450D26668C3700B6DAE5 /* AppDelegate.swift */; };
 		7CA7451026668C3700B6DAE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA7450F26668C3700B6DAE5 /* SceneDelegate.swift */; };
 		7CA7451226668C3700B6DAE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA7451126668C3700B6DAE5 /* ViewController.swift */; };
 		7CA7451526668C3700B6DAE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA7451326668C3700B6DAE5 /* Main.storyboard */; };
 		7CA7451726668C3800B6DAE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CA7451626668C3800B6DAE5 /* Assets.xcassets */; };
 		7CA7451A26668C3800B6DAE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA7451826668C3800B6DAE5 /* LaunchScreen.storyboard */; };
+		7CA7452226668D4900B6DAE5 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA7452126668D4900B6DAE5 /* APIService.swift */; };
+		7CA74524266696C900B6DAE5 /* AdaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA74523266696C900B6DAE5 /* AdaModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C7462712666D42F00291DAE /* ADATableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADATableViewCell.swift; sourceTree = "<group>"; };
 		7CA7450A26668C3700B6DAE5 /* CardanoCrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardanoCrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CA7450D26668C3700B6DAE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CA7450F26668C3700B6DAE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		7CA7451626668C3800B6DAE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CA7451926668C3800B6DAE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7CA7451B26668C3800B6DAE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CA7452126668D4900B6DAE5 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		7CA74523266696C900B6DAE5 /* AdaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				7CA7451626668C3800B6DAE5 /* Assets.xcassets */,
 				7CA7451826668C3800B6DAE5 /* LaunchScreen.storyboard */,
 				7CA7451B26668C3800B6DAE5 /* Info.plist */,
+				7CA7452126668D4900B6DAE5 /* APIService.swift */,
+				7CA74523266696C900B6DAE5 /* AdaModel.swift */,
+				7C7462712666D42F00291DAE /* ADATableViewCell.swift */,
 			);
 			path = CardanoCrypto;
 			sourceTree = "<group>";
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CA74524266696C900B6DAE5 /* AdaModel.swift in Sources */,
 				7CA7451226668C3700B6DAE5 /* ViewController.swift in Sources */,
+				7C7462722666D42F00291DAE /* ADATableViewCell.swift in Sources */,
 				7CA7450E26668C3700B6DAE5 /* AppDelegate.swift in Sources */,
+				7CA7452226668D4900B6DAE5 /* APIService.swift in Sources */,
 				7CA7451026668C3700B6DAE5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
